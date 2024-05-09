@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-container {
+  background-color: #fff;
+  display: flex;
+
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  flex-direction: column;
+}
+
+form {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.title {
+  margin-bottom: 30px;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+.title h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.title p {
+  font-size: 14px;
+  color: #666;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(58, 91, 34, 0.915);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 90px;
+}
+
+button:hover {
+  background-color: rgba(58, 91, 34, 0.915);
+}
+
+.A {
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+img {
+  width: 600px;
+  height: 100vh;
+  border-radius: 8px;
+}
+
+.icon1 {
+  width: 30%;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  left: 100px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.B {
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.icon2 {
+  width: 30%;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  left: 276px;
+  padding-left: 10px;
+  padding-top: 5px;
+  bottom: 33px;
+}
+
+#ss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p {
+  text-align: center;
+}
